@@ -1,0 +1,149 @@
+html {
+    height: 100%;
+}
+
+body {
+    background-color: #eaeaea;
+    overflow: hidden;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+#searchBlock {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+.search-input {
+    width: 88%;
+    height: 30px;
+}
+
+.search-btn {
+    height: 36px;
+    width: 10%;
+}
+
+.search-input {
+    width: 88%;
+    height: 30px;
+}
+
+.search-btn {
+    height: 36px;
+    width: 10%;
+}
+
+#contentBlock {
+    width: auto;
+    height: 100%;
+    overflow-x: scroll;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+
+.output-video {
+    display: block;
+    height: 100%;
+}
+
+.output {
+    display: inline-block;
+    margin: 10px 5px;
+    width: 320px;
+    border: 1px solid #b1b1b1;
+    padding: 3px;
+    border-radius: 3px;
+    background: #ffffff;
+    white-space: normal;
+    vertical-align: top;
+    text-align: center;
+}
+
+.output img {
+    height: 170px;
+    width: auto;
+}
+
+.output .curs {
+    display: none;
+    text-align: center;
+}
+
+.output:hover .curs {
+    display: block;
+}
+
+.title {
+    font-weight: bold;
+    text-align: center;
+}
+
+.channel {
+    color: red;
+}
+
+.curs {
+    font-weight: cursive;
+    font-size: 14px;
+}
+
+@media (max-width: 1250px) {
+    
+}
+
+@media (max-width: 1200px) {
+    
+}
+
+@media (max-width: 1140px) {
+    
+}
+
+@media (max-width: 1100px) {
+    
+}
+
+@media (max-width: 1065px) {
+    
+}
+
+@media (max-width: 1030px) {
+    
+}
+
+@media (max-width: 960px) {
+
+}
+    
+
+@media (max-width: 880px) {
+    
+}
+
+@media (max-width: 840px) {
+    
+}
+
+@media(max-width: 750px) {
+    
+}
+
+@media(max-width: 690px) {
+    
+}
+
+@media(max-width: 600px) {
+    
+}

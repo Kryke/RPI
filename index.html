@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>RPI-video</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <section id="searchBlock">
+        <div class="search">
+            <form action="#" class="search" onsubmit="getResult(document.getElementById('search-input').value);return false;"> 
+                <input type="text" id="search-input" name="search" class="query search-input" autocomplete="off">
+                <button type="submit" class="search-btn">Search</button>
+            </form>
+        </div>
+    </section>
+    <section class="output-video">
+        <div id="contentBlock"></div>
+    </section>
+</body>
+</html>
